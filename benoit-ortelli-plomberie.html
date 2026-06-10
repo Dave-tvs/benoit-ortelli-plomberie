@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benoit Ortelli Plomberie — Plombier à Marseille 8e | Dépannage &amp; Devis gratuit</title>
+<meta name="description" content="Plombier artisan à Marseille (13008). Dépannage rapide, fuite d'eau, chauffe-eau, salle de bain. 4,8/5 sur Google (50 avis). Devis gratuit — réponse rapide par WhatsApp ou téléphone : 06 82 33 80 29.">
+<meta property="og:title" content="Benoit Ortelli Plomberie — Plombier à Marseille">
+<meta property="og:description" content="Artisan plombier noté 4,8/5 sur Google. Dépannage, fuite, chauffe-eau, rénovation salle de bain. Devis gratuit, prix honnêtes.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Benoit Ortelli Plomberie",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "28 Rue de Cluny",
+    "postalCode": "13008",
+    "addressLocality": "Marseille",
+    "addressCountry": "FR"
+  },
+  "telephone": "+33682338029",
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "50"
+  },
+  "areaServed": "Marseille",
+  "priceRange": "€€"
+}
+</script>
+<style>
+:root{
+  --marine:#0D2B3E;
+  --marine-deep:#081D2B;
+  --cuivre:#C4763B;
+  --cuivre-clair:#E2A267;
+  --cuivre-grad:linear-gradient(135deg,#A85A28 0%,#D98E4F 45%,#F0BE8A 55%,#C4763B 100%);
+  --blanc:#FDFCFA;
+  --gris-bleu:#5B7484;
+  --whatsapp:#1FAF38;
+  --whatsapp-dark:#128C7E;
+  --ink:#13242F;
+  --radius:14px;
+  --shadow:0 12px 40px rgba(8,29,43,.14);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{font-family:'Figtree',system-ui,sans-serif;color:var(--ink);background:var(--blanc);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Bricolage Grotesque',sans-serif;line-height:1.12;letter-spacing:-.01em}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cuivre)}
+.eyebrow::before{content:"";width:26px;height:3px;background:var(--cuivre-grad);border-radius:2px}
+:focus-visible{outline:3px solid var(--cuivre);outline-offset:3px;border-radius:4px}
+
+/* ===== Header ===== */
+header{position:sticky;top:0;z-index:50;background:rgba(253,252,250,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(13,43,62,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:11px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.05rem;text-decoration:none;color:var(--marine)}
+.brand-mark{width:38px;height:38px;border-radius:10px;background:var(--cuivre-grad);display:grid;place-items:center;flex-shrink:0}
+.brand-mark svg{width:21px;height:21px}
+.brand small{display:block;font-family:'Figtree';font-weight:600;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gris-bleu)}
+.nav-actions{display:flex;gap:10px;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:700;font-size:.95rem;padding:13px 22px;border-radius:99px;text-decoration:none;border:none;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;font-family:'Figtree'}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn svg{width:19px;height:19px;flex-shrink:0}
+.btn-wa{background:var(--whatsapp);color:#fff;box-shadow:0 6px 20px rgba(31,175,56,.35)}
+.btn-wa:hover{box-shadow:0 10px 28px rgba(31,175,56,.45)}
+.btn-tel{background:var(--marine);color:#fff}
+.btn-ghost{background:transparent;color:var(--marine);border:2px solid rgba(13,43,62,.18)}
+.btn-ghost:hover{border-color:var(--cuivre)}
+.nav .btn{padding:11px 18px;font-size:.88rem}
+.nav .btn-tel{display:inline-flex}
+@media(max-width:680px){
+  .nav .btn-tel span{display:none}
+  .nav .btn-tel{padding:11px 13px}
+  .brand small{display:none}
+}
+
+/* ===== Hero ===== */
+.hero{background:linear-gradient(180deg,var(--marine-deep) 0%,var(--marine) 100%);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:90px;background:var(--blanc);clip-path:polygon(0 100%,100% 100%,100% 38%,0 92%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:72px 0 130px;position:relative;z-index:1}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.4rem);font-weight:800;margin:18px 0 20px}
+.hero h1 em{font-style:normal;background:var(--cuivre-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:1.13rem;color:rgba(255,255,255,.82);max-width:48ch;margin-bottom:30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+.hero-ctas .btn{padding:16px 28px;font-size:1.02rem}
+.trust-row{display:flex;gap:26px;flex-wrap:wrap;align-items:center}
+.trust{display:flex;align-items:center;gap:10px;font-size:.9rem;color:rgba(255,255,255,.85)}
+.stars{color:#FFC53D;letter-spacing:2px;font-size:1rem}
+.trust b{color:#fff}
+.hero-visual{position:relative}
+.hero-photo{border-radius:var(--radius);box-shadow:0 30px 80px rgba(0,0,0,.45);aspect-ratio:4/3.4;object-fit:cover;width:100%;border:1px solid rgba(255,255,255,.12)}
+.hero-fallback{border-radius:var(--radius);box-shadow:0 30px 80px rgba(0,0,0,.45);aspect-ratio:4/3.4;width:100%;background:
+  radial-gradient(circle at 70% 20%,rgba(226,162,103,.35),transparent 55%),
+  radial-gradient(circle at 20% 85%,rgba(196,118,59,.28),transparent 50%),
+  linear-gradient(150deg,#10384F,#081D2B);
+  display:none;place-items:center;border:1px solid rgba(255,255,255,.12)}
+.hero-fallback svg{width:42%;opacity:.9}
+.badge-float{position:absolute;bottom:-22px;left:-18px;background:#fff;color:var(--ink);border-radius:12px;padding:14px 18px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px;animation:float 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.badge-float .g{width:34px;height:34px;flex-shrink:0}
+.badge-float strong{font-size:1.05rem;display:block;line-height:1.2}
+.badge-float span{font-size:.78rem;color:var(--gris-bleu)}
+.badge-urgence{position:absolute;top:18px;right:18px;background:rgba(8,29,43,.78);backdrop-filter:blur(6px);color:#fff;border:1px solid rgba(226,162,103,.5);border-radius:99px;padding:9px 16px;font-size:.8rem;font-weight:600;display:flex;align-items:center;gap:8px}
+.dot{width:9px;height:9px;border-radius:50%;background:#3DDC68;box-shadow:0 0 0 0 rgba(61,220,104,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(61,220,104,0)}100%{box-shadow:0 0 0 0 rgba(61,220,104,0)}}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:42px;padding:48px 0 120px}
+  .badge-float{left:8px}
+}
+
+/* ===== Services ===== */
+section{padding:88px 0}
+.sec-head{max-width:620px;margin-bottom:52px}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.4rem);font-weight:800;color:var(--marine);margin-top:14px}
+.sec-head p{color:var(--gris-bleu);margin-top:12px;font-size:1.05rem}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid rgba(13,43,62,.09);border-radius:var(--radius);padding:30px 26px;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:rgba(196,118,59,.4)}
+.card .ico{width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,rgba(196,118,59,.14),rgba(226,162,103,.22));display:grid;place-items:center;margin-bottom:18px}
+.card .ico svg{width:26px;height:26px;stroke:var(--cuivre)}
+.card h3{font-size:1.13rem;color:var(--marine);margin-bottom:9px}
+.card p{font-size:.93rem;color:var(--gris-bleu)}
+.card .tag-urgent{display:inline-block;margin-top:14px;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#B43A2B;background:rgba(180,58,43,.09);padding:5px 11px;border-radius:99px}
+@media(max-width:900px){.services-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.services-grid{grid-template-columns:1fr}}
+
+/* ===== Pourquoi / garanties ===== */
+.why{background:var(--marine);color:#fff;position:relative;overflow:hidden}
+.why .sec-head h2{color:#fff}
+.why .sec-head p{color:rgba(255,255,255,.72)}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.why-item{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:26px 22px}
+.why-item .num{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.9rem;background:var(--cuivre-grad);-webkit-background-clip:text;background-clip:text;color:transparent;display:block;margin-bottom:8px}
+.why-item h3{font-size:1.02rem;margin-bottom:7px}
+.why-item p{font-size:.88rem;color:rgba(255,255,255,.7)}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.why-grid{grid-template-columns:1fr}}
+
+/* ===== Process — signature tuyau cuivre ===== */
+.process-list{position:relative;max-width:640px;margin:0 auto;padding-left:54px}
+.pipe{position:absolute;left:17px;top:8px;bottom:8px;width:8px;background:var(--cuivre-grad);border-radius:6px;box-shadow:inset -2px 0 3px rgba(0,0,0,.25),inset 2px 0 3px rgba(255,255,255,.4)}
+.step{position:relative;padding:0 0 46px}
+.step:last-child{padding-bottom:0}
+.step::before{content:"";position:absolute;left:-49px;top:2px;width:30px;height:30px;border-radius:8px;background:var(--cuivre-grad);box-shadow:0 3px 8px rgba(168,90,40,.45),inset 0 2px 3px rgba(255,255,255,.5);border:2px solid #8F4D22}
+.step h3{font-size:1.18rem;color:var(--marine);margin-bottom:7px}
+.step p{color:var(--gris-bleu);font-size:.97rem;max-width:52ch}
+
+/* ===== Avis ===== */
+.avis{background:linear-gradient(180deg,var(--blanc),#F4F0E9 140%)}
+.avis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.avis-card{background:#fff;border-radius:var(--radius);padding:28px 26px;box-shadow:0 6px 24px rgba(8,29,43,.07);border:1px solid rgba(13,43,62,.06);display:flex;flex-direction:column;gap:14px}
+.avis-card .stars{color:#FFB400;font-size:.95rem}
+.avis-card blockquote{font-size:.96rem;color:var(--ink);flex:1}
+.avis-card footer{display:flex;align-items:center;gap:11px;font-size:.85rem}
+.avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:.9rem;flex-shrink:0}
+.avis-card footer b{display:block}
+.avis-card footer span{color:var(--gris-bleu);font-size:.78rem}
+.avis-cta{text-align:center;margin-top:38px}
+.avis-cta a{color:var(--marine);font-weight:600;text-decoration:underline;text-decoration-color:var(--cuivre);text-underline-offset:4px}
+@media(max-width:880px){.avis-grid{grid-template-columns:1fr}}
+
+/* ===== Formulaire ===== */
+.contact{background:var(--marine-deep);color:#fff}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:start}
+.contact h2{font-size:clamp(1.7rem,3vw,2.3rem);font-weight:800;margin-top:14px}
+.contact .side p{color:rgba(255,255,255,.75);margin:16px 0 28px;font-size:1.03rem}
+.coords{display:flex;flex-direction:column;gap:16px}
+.coord{display:flex;gap:14px;align-items:flex-start;font-size:.95rem}
+.coord svg{width:21px;height:21px;stroke:var(--cuivre-clair);flex-shrink:0;margin-top:2px}
+.coord b{display:block;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55);font-weight:700}
+.coord a{text-decoration:none}
+.coord a:hover{text-decoration:underline}
+form{background:#fff;border-radius:18px;padding:36px 32px;color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.4)}
+form h3{font-size:1.3rem;color:var(--marine);display:flex;align-items:center;gap:11px}
+form h3 svg{width:26px;height:26px}
+form .sub{font-size:.9rem;color:var(--gris-bleu);margin:8px 0 24px}
+.field{margin-bottom:18px}
+label{display:block;font-weight:600;font-size:.88rem;margin-bottom:7px;color:var(--marine)}
+label .req{color:#B43A2B}
+input,select,textarea{width:100%;font-family:'Figtree';font-size:.97rem;padding:13px 15px;border:1.5px solid rgba(13,43,62,.16);border-radius:10px;background:#FBFAF8;transition:border-color .15s,box-shadow .15s;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cuivre);box-shadow:0 0 0 4px rgba(196,118,59,.13);background:#fff}
+textarea{resize:vertical;min-height:104px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.urgence-pick{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.urgence-pick input{position:absolute;opacity:0;pointer-events:none}
+.urgence-pick label{margin:0;border:1.5px solid rgba(13,43,62,.16);border-radius:10px;padding:13px 10px;text-align:center;cursor:pointer;font-size:.88rem;font-weight:600;transition:all .15s;background:#FBFAF8}
+.urgence-pick input:checked+label{border-color:var(--cuivre);background:rgba(196,118,59,.09);color:var(--cuivre);box-shadow:0 0 0 3px rgba(196,118,59,.12)}
+.urgence-pick input:focus-visible+label{outline:3px solid var(--cuivre);outline-offset:2px}
+.err{display:none;color:#B43A2B;font-size:.8rem;margin-top:5px;font-weight:600}
+.field.invalid .err{display:block}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#B43A2B}
+.btn-submit{width:100%;padding:17px;font-size:1.06rem;margin-top:6px}
+.form-note{text-align:center;font-size:.8rem;color:var(--gris-bleu);margin-top:14px}
+.preview{display:none;margin-top:18px;background:#EAF7ED;border:1.5px solid rgba(31,175,56,.35);border-radius:12px;padding:16px;font-size:.87rem}
+.preview.show{display:block}
+.preview b{color:var(--whatsapp-dark);display:block;margin-bottom:6px}
+.preview pre{white-space:pre-wrap;font-family:'Figtree';color:var(--ink);font-size:.85rem}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:44px}.row2{grid-template-columns:1fr}form{padding:28px 22px}}
+
+/* ===== Footer ===== */
+footer.site{background:var(--marine-deep);color:rgba(255,255,255,.6);border-top:1px solid rgba(255,255,255,.08);padding:30px 0;font-size:.85rem}
+footer.site .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+
+/* ===== WhatsApp flottant ===== */
+.wa-float{position:fixed;bottom:22px;right:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--whatsapp);display:grid;place-items:center;box-shadow:0 10px 30px rgba(31,175,56,.5);transition:transform .15s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px}
+.wa-float::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--whatsapp);animation:ring 2.2s ease-out infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.55);opacity:0}}
+
+/* Reveal au scroll */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="brand" aria-label="Benoit Ortelli Plomberie — retour en haut">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11z"/></svg>
+      </span>
+      <span>Benoit Ortelli<small>Plomberie · Marseille</small></span>
+    </a>
+    <nav class="nav-actions" aria-label="Actions rapides">
+      <a class="btn btn-tel" href="tel:+33682338029">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+        <span>06 82 33 80 29</span>
+      </a>
+      <a class="btn btn-wa" href="https://wa.me/33682338029?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20plombier%20%C3%A0%20Marseille." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.05 2a9.95 9.95 0 0 0-8.6 14.93L2 22l5.2-1.4A9.95 9.95 0 1 0 12.05 2zm0 18.17c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.09.83.84-3.01-.2-.31a8.26 8.26 0 1 1 7 3.83z"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" aria-label="Présentation">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" style="color:var(--cuivre-clair)">Artisan plombier · Marseille 8e</span>
+      <h1>Une fuite, une panne&nbsp;? <em>Réglé proprement</em>, au juste prix.</h1>
+      <p class="lead">Benoit Ortelli intervient rapidement chez vous à Marseille et alentours : dépannage, fuite d'eau, chauffe-eau, salle de bain. Devis gratuit, tarifs annoncés avant les travaux.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wa" href="#contact">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.05 2a9.95 9.95 0 0 0-8.6 14.93L2 22l5.2-1.4A9.95 9.95 0 1 0 12.05 2zm0 18.17c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.09.83.84-3.01-.2-.31a8.26 8.26 0 1 1 7 3.83z"/></svg>
+          Décrire mon problème
+        </a>
+        <a class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.3)" href="tel:+33682338029">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+          Appeler maintenant
+        </a>
+      </div>
+      <div class="trust-row">
+        <div class="trust"><span class="stars" aria-hidden="true">★★★★★</span><span><b>4,8/5</b> · 50 avis Google</span></div>
+        <div class="trust"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--cuivre-clair)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Devis <b>gratuit</b></span></div>
+        <div class="trust"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--cuivre-clair)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>Réponse <b>rapide</b></span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <span class="badge-urgence"><span class="dot" aria-hidden="true"></span>Disponible aujourd'hui · Lun–Ven 8h–17h</span>
+      <!-- PHOTO HERO : télécharge l'image générée (Higgsfield) ou une vraie photo de Benoit,
+           renomme-la "hero.jpg" et place-la dans le même dossier que ce fichier.
+           Si hero.jpg est absent, le visuel de secours (tuyau cuivre) s'affiche automatiquement. -->
+      <img class="hero-photo" id="heroPhoto" src="hero.jpg" alt="Benoit Ortelli, artisan plombier, en intervention dans une salle de bain à Marseille" onerror="this.style.display='none';document.getElementById('heroFallback').style.display='grid'">
+      <div class="hero-fallback" id="heroFallback" aria-hidden="true">
+        <svg viewBox="0 0 200 200" fill="none"><path d="M40 160V80h40v30h40V60h40" stroke="url(#cu)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><circle cx="160" cy="60" r="13" fill="#E2A267"/><circle cx="40" cy="160" r="13" fill="#E2A267"/><defs><linearGradient id="cu" x1="40" y1="160" x2="160" y2="60"><stop stop-color="#A85A28"/><stop offset=".5" stop-color="#E2A267"/><stop offset="1" stop-color="#C4763B"/></linearGradient></defs></svg>
+      </div>
+      <div class="badge-float">
+        <svg class="g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34.05 6.05 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.7-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34.05 6.05 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C41 35.4 44 30.1 44 24c0-1.3-.1-2.7-.4-3.9z"/></svg>
+        <div><strong>4,8 ★</strong><span>50 avis Google vérifiables</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" aria-label="Services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Interventions</span>
+      <h2>Du robinet qui goutte à la salle de bain complète</h2>
+      <p>Chaque intervention commence par un diagnostic clair et un prix annoncé. Pas de surprise sur la facture.</p>
+    </div>
+    <div class="services-grid">
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
+        <h3>Recherche &amp; réparation de fuite</h3>
+        <p>Fuite visible ou cachée, surconsommation d'eau anormale : localisation et réparation durable.</p>
+        <span class="tag-urgent">Intervention prioritaire</span>
+      </div>
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="3"/><path d="M12 6v4M10 18h4"/></svg></span>
+        <h3>Chauffe-eau &amp; ballon</h3>
+        <p>Plus d'eau chaude ? Dépannage, entretien, remplacement de cumulus électrique ou thermodynamique.</p>
+        <span class="tag-urgent">Intervention prioritaire</span>
+      </div>
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M4 12a8 8 0 0 1 16 0M7 12v7a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-7"/></svg></span>
+        <h3>Débouchage canalisations</h3>
+        <p>Évier, WC, douche, colonne : débouchage propre et vérification de l'écoulement après intervention.</p>
+      </div>
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21v-4a8 8 0 0 1 8-8h2M13 9V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 21h7"/></svg></span>
+        <h3>Robinetterie &amp; sanitaires</h3>
+        <p>Remplacement de robinets, mitigeurs, WC, mécanismes de chasse. Matériel de qualité, fini les gouttes.</p>
+      </div>
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h8v9M11 3v5h10"/></svg></span>
+        <h3>Rénovation salle de bain</h3>
+        <p>Douche à l'italienne, baignoire, meuble vasque : de la dépose à la pose, un seul interlocuteur.</p>
+      </div>
+      <div class="card reveal">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6.4 6.4L3 18v3h3l5.3-5.3a4.5 4.5 0 0 0 6.4-6.4l-3.2 3.2-2.1-2.1 3.3-3.1z"/></svg></span>
+        <h3>Petits travaux &amp; entretien</h3>
+        <p>Raccordements lave-linge / lave-vaisselle, remplacement de flexibles, joints, contrôles préventifs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why" aria-label="Pourquoi choisir Benoit Ortelli">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" style="color:var(--cuivre-clair)">La différence artisan</span>
+      <h2>Ce que disent vraiment les 50 avis</h2>
+      <p>Les mots qui reviennent le plus chez les clients : « prix », « réactif », « devis », « honnête ». Voilà la méthode derrière.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><span class="num">7×</span><h3>« Prix »</h3><p>Tarifs raisonnables annoncés avant intervention. Le devis est gratuit et sans engagement.</p></div>
+      <div class="why-item reveal"><span class="num">5×</span><h3>« Réactif »</h3><p>« Fait le maximum pour intervenir rapidement et efficacement » — réponse rapide, créneau au plus tôt.</p></div>
+      <div class="why-item reveal"><span class="num">5×</span><h3>« Devis »</h3><p>Un chiffrage écrit et détaillé, pour décider sereinement. Aucun travaux ne démarre sans votre accord.</p></div>
+      <div class="why-item reveal"><span class="num">4×</span><h3>« Honnête »</h3><p>On ne remplace pas ce qui peut être réparé. La relation de confiance dure plus longtemps qu'un chantier.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="process" aria-label="Comment ça se passe">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin-left:auto;margin-right:auto;text-align:center">
+      <span class="eyebrow" style="justify-content:center">Simple comme un coup de fil</span>
+      <h2>Comment ça se passe</h2>
+    </div>
+    <div class="process-list reveal">
+      <div class="pipe" aria-hidden="true"></div>
+      <div class="step">
+        <h3>Vous décrivez le problème</h3>
+        <p>Par WhatsApp avec le formulaire ci-dessous, ou par téléphone. Une photo de la fuite ou de l'équipement aide beaucoup au diagnostic.</p>
+      </div>
+      <div class="step">
+        <h3>Vous recevez un diagnostic et un prix</h3>
+        <p>Réponse rapide avec une première estimation. Pour les travaux plus importants, un devis gratuit écrit et détaillé.</p>
+      </div>
+      <div class="step">
+        <h3>Intervention propre, au créneau convenu</h3>
+        <p>Travail soigné, chantier laissé propre, et vérification du bon fonctionnement avant de partir. C'est ce qui fait les 4,8 étoiles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="avis" id="avis" aria-label="Avis clients">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Avis Google</span>
+      <h2>Ils ont fait appel à Benoit</h2>
+      <p>Extraits d'avis publics laissés sur la fiche Google de l'entreprise.</p>
+    </div>
+    <div class="avis-grid">
+      <article class="avis-card reveal">
+        <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+        <blockquote>«&nbsp;Je recommande très vivement Mr Benoît Ortelli pour son professionnalisme et son sérieux. Le travail est impeccable et les tarifs très raisonnables.&nbsp;»</blockquote>
+        <footer><span class="avatar" style="background:#7C5CBF">J</span><div><b>Jehri Isabelle</b><span>Avis Google · septembre 2025</span></div></footer>
+      </article>
+      <article class="avis-card reveal">
+        <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+        <blockquote>«&nbsp;Excellent professionnel, fait le maximum pour intervenir rapidement et efficacement. Relations de pleine confiance, merci.&nbsp;»</blockquote>
+        <footer><span class="avatar" style="background:#2D8A6E">J</span><div><b>Jacolavigne</b><span>Avis Google · décembre 2025</span></div></footer>
+      </article>
+      <article class="avis-card reveal">
+        <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+        <blockquote>«&nbsp;Sérieux, compétent et réactif&nbsp;! Je le recommande vivement&nbsp;! Merci encore pour votre intervention&nbsp;!&nbsp;»</blockquote>
+        <footer><span class="avatar" style="background:#C4763B">M</span><div><b>Ibanez Maud</b><span>Local Guide · novembre 2025</span></div></footer>
+      </article>
+    </div>
+    <p class="avis-cta reveal">Note globale <b>4,8/5</b> sur 50 avis — <a href="https://www.google.com/maps/search/Benoit+Ortelli+Plomberie+Marseille" target="_blank" rel="noopener">voir tous les avis sur Google</a></p>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-label="Contact et demande d'intervention">
+  <div class="wrap contact-grid">
+    <div class="side">
+      <span class="eyebrow" style="color:var(--cuivre-clair)">Demande d'intervention</span>
+      <h2>Décrivez votre problème, recevez une réponse sur WhatsApp</h2>
+      <p>Remplissez le formulaire : votre message WhatsApp est rédigé automatiquement, il ne reste qu'à l'envoyer. Vous pouvez ensuite y joindre une photo directement dans la conversation.</p>
+      <div class="coords">
+        <div class="coord">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><b>Adresse</b>28 Rue de Cluny, 13008 Marseille</div>
+        </div>
+        <div class="coord">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+          <div><b>Téléphone</b><a href="tel:+33682338029">06 82 33 80 29</a></div>
+        </div>
+        <div class="coord">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div><b>Horaires</b>Lundi – Vendredi · 8h00 – 17h00</div>
+        </div>
+        <div class="coord">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <div><b>Zone d'intervention</b>Marseille et communes limitrophes</div>
+        </div>
+      </div>
+    </div>
+
+    <form id="waForm" novalidate>
+      <h3>
+        <svg viewBox="0 0 24 24" fill="#1FAF38"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.05 2a9.95 9.95 0 0 0-8.6 14.93L2 22l5.2-1.4A9.95 9.95 0 1 0 12.05 2zm0 18.17c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.09.83.84-3.01-.2-.31a8.26 8.26 0 1 1 7 3.83z"/></svg>
+        Demande par WhatsApp
+      </h3>
+      <p class="sub">2 minutes — votre message est pré-rédigé et envoyé depuis votre WhatsApp.</p>
+
+      <div class="field" id="f-nom">
+        <label for="nom">Votre nom <span class="req" aria-hidden="true">*</span></label>
+        <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Ex. : Marie Durand" required>
+        <span class="err">Indiquez votre nom pour que Benoit sache à qui répondre.</span>
+      </div>
+
+      <div class="row2">
+        <div class="field" id="f-tel">
+          <label for="tel">Votre téléphone <span class="req" aria-hidden="true">*</span></label>
+          <input type="tel" id="tel" name="tel" autocomplete="tel" inputmode="tel" placeholder="06 12 34 56 78" required>
+          <span class="err">Numéro invalide — format attendu : 06 12 34 56 78.</span>
+        </div>
+        <div class="field" id="f-quartier">
+          <label for="quartier">Quartier / commune</label>
+          <input type="text" id="quartier" name="quartier" placeholder="Ex. : Marseille 8e, Périer">
+        </div>
+      </div>
+
+      <div class="field" id="f-type">
+        <label for="type">Type de problème <span class="req" aria-hidden="true">*</span></label>
+        <select id="type" name="type" required>
+          <option value="" selected disabled>Choisir…</option>
+          <option>Fuite d'eau</option>
+          <option>Chauffe-eau / plus d'eau chaude</option>
+          <option>Canalisation bouchée</option>
+          <option>Robinetterie / sanitaires</option>
+          <option>Rénovation salle de bain</option>
+          <option>Autre / je ne sais pas</option>
+        </select>
+        <span class="err">Choisissez le type de problème (« je ne sais pas » convient aussi).</span>
+      </div>
+
+      <div class="field">
+        <label>Niveau d'urgence</label>
+        <div class="urgence-pick" role="radiogroup" aria-label="Niveau d'urgence">
+          <input type="radio" id="u1" name="urgence" value="🔴 Urgent — dégât en cours" >
+          <label for="u1">🔴 Urgent (dégât en cours)</label>
+          <input type="radio" id="u2" name="urgence" value="🟠 Cette semaine" checked>
+          <label for="u2">🟠 Cette semaine</label>
+        </div>
+      </div>
+
+      <div class="field" id="f-msg">
+        <label for="msg">Décrivez le problème</label>
+        <textarea id="msg" name="msg" placeholder="Ex. : fuite sous l'évier de la cuisine depuis hier soir, j'ai coupé l'arrivée d'eau…"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-wa btn-submit">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.05 2a9.95 9.95 0 0 0-8.6 14.93L2 22l5.2-1.4A9.95 9.95 0 1 0 12.05 2zm0 18.17c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.09.83.84-3.01-.2-.31a8.26 8.26 0 1 1 7 3.83z"/></svg>
+        Envoyer sur WhatsApp
+      </button>
+      <p class="form-note">Aucune donnée n'est stockée : le message part directement de votre WhatsApp vers le 06 82 33 80 29.</p>
+
+      <div class="preview" id="preview" aria-live="polite">
+        <b>✓ WhatsApp s'ouvre avec ce message :</b>
+        <pre id="previewTxt"></pre>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© <span id="year"></span> Benoit Ortelli Plomberie — 28 Rue de Cluny, 13008 Marseille</span>
+    <span><a href="tel:+33682338029" style="text-decoration:none">06 82 33 80 29</a> · Lun–Ven 8h–17h</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/33682338029?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20plombier%20%C3%A0%20Marseille." target="_blank" rel="noopener" aria-label="Contacter Benoit Ortelli sur WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.05 2a9.95 9.95 0 0 0-8.6 14.93L2 22l5.2-1.4A9.95 9.95 0 1 0 12.05 2zm0 18.17c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.09.83.84-3.01-.2-.31a8.26 8.26 0 1 1 7 3.83z"/></svg>
+</a>
+
+<script>
+(function(){
+  "use strict";
+  var WA_NUMBER = "33682338029";
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  /* --- Reveal au scroll --- */
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reveals = document.querySelectorAll(".reveal");
+  if (prefersReduced || !("IntersectionObserver" in window)) {
+    reveals.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(function(el){ io.observe(el); });
+  }
+
+  /* --- Validation --- */
+  function setInvalid(id, invalid){
+    var f = document.getElementById(id);
+    if (f) f.classList.toggle("invalid", invalid);
+    return !invalid;
+  }
+  function validPhone(v){
+    var digits = v.replace(/[\s.\-()]/g, "");
+    return /^(?:\+33|0033|0)[1-9]\d{8}$/.test(digits);
+  }
+
+  /* --- Construction du message WhatsApp --- */
+  function buildMessage(d){
+    var lines = [
+      "Bonjour Benoit, je vous contacte depuis votre site.",
+      "",
+      "👤 Nom : " + d.nom,
+      "📞 Téléphone : " + d.tel
+    ];
+    if (d.quartier) lines.push("📍 Quartier : " + d.quartier);
+    lines.push("🔧 Problème : " + d.type);
+    lines.push("⏱ Urgence : " + d.urgence);
+    if (d.msg) lines.push("", "📝 Détails : " + d.msg);
+    lines.push("", "Merci de me recontacter pour un devis / une intervention.");
+    return lines.join("\n");
+  }
+
+  var form = document.getElementById("waForm");
+  form.addEventListener("submit", function(ev){
+    ev.preventDefault();
+
+    var nom = document.getElementById("nom").value.trim();
+    var tel = document.getElementById("tel").value.trim();
+    var quartier = document.getElementById("quartier").value.trim();
+    var type = document.getElementById("type").value;
+    var msg = document.getElementById("msg").value.trim();
+    var urgenceEl = document.querySelector('input[name="urgence"]:checked');
+    var urgence = urgenceEl ? urgenceEl.value : "🟠 Cette semaine";
+
+    var ok = true;
+    ok = setInvalid("f-nom", nom.length < 2) && ok;
+    ok = setInvalid("f-tel", !validPhone(tel)) && ok;
+    ok = setInvalid("f-type", !type) && ok;
+    if (!ok) {
+      var firstInvalid = form.querySelector(".field.invalid input, .field.invalid select");
+      if (firstInvalid) firstInvalid.focus();
+      return;
+    }
+
+    var message = buildMessage({ nom: nom, tel: tel, quartier: quartier, type: type, msg: msg, urgence: urgence });
+
+    var preview = document.getElementById("preview");
+    document.getElementById("previewTxt").textContent = message;
+    preview.classList.add("show");
+
+    var url = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(message);
+    window.open(url, "_blank", "noopener");
+  });
+
+  /* Nettoyage des erreurs à la saisie */
+  ["nom","tel","type"].forEach(function(id){
+    var el = document.getElementById(id);
+    el.addEventListener("input", function(){ setInvalid("f-" + id, false); });
+    el.addEventListener("change", function(){ setInvalid("f-" + id, false); });
+  });
+})();
+</script>
+</body>
+</html>
